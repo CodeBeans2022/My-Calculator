@@ -1,0 +1,34 @@
+.container{
+width: 50%;
+    border: 5px solid black;
+    padding: 5%;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#output{
+
+height: 200px;
+width: 600px;
+background-color: bisque;
+margin-bottom: 30px;
+
+}
+
+.userInput{
+
+    height: 60px;
+    width: 60px;
+margin: 5px;
+
+}
+
+.clear{
+
+    height: 60px;
+    width: 90px;
+}
+
+button:hover{
+    background-color: blueviolet;
+}
