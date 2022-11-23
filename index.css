@@ -1,34 +1,63 @@
-.container{
-width: 50%;
-    border: 5px solid black;
+body {
+
+    background-color: mediumpurple;
+
+}
+
+.container {
+
+    width: 50%;
+    border: 1px solid black;
     padding: 5%;
-    margin: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: mediumorchid;
+    box-shadow: 10px 10px 10px 10px black;
+    font-size: 20px;
+
+}
+
+#output {
+
+    height: 150px;
+    background-color: rgb(227, 160, 225);
+    margin-bottom: 30px;
     border-radius: 10px;
-}
-
-#output{
-
-height: 200px;
-width: 600px;
-background-color: bisque;
-margin-bottom: 30px;
 
 }
 
-.userInput{
+.userInput {
 
     height: 60px;
     width: 60px;
-margin: 5px;
+    margin-bottom: 10px;
 
 }
 
-.clear{
+#clear {
 
+    margin-top: 15px;
     height: 60px;
-    width: 90px;
+    width: 250px;
 }
 
-button:hover{
+button{
+
+    border-radius: 5px;
+background-color:lightgray ;
+
+}
+
+button:hover {
     background-color: blueviolet;
+}
+
+@media screen and (min-width: 576px){
+
+button{
+
+width: 2px;
+
+}
+
 }
