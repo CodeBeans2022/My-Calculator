@@ -26,6 +26,7 @@ body {
 
 }
 
+
 .userInput {
 
     height: 60px;
@@ -41,10 +42,10 @@ body {
     width: 250px;
 }
 
-button{
+button {
 
     border-radius: 5px;
-background-color:lightgray ;
+    background-color: lightgray;
 
 }
 
@@ -52,12 +53,20 @@ button:hover {
     background-color: blueviolet;
 }
 
-@media screen and (min-width: 576px){
+@media screen and (max-width: 576px) {
 
-button{
+    .userInput {
 
-width: 2px;
+        width: 50px;
 
-}
+    }
+
+    .container {
+
+        width: 75%;
+        padding: 5%;
+        
+
+    }
 
 }
